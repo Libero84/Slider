@@ -1,0 +1,33 @@
+Zadanie polega na zmierzeniu siê z tematem prostego slidera. S¹ do tego gotowe biblioteczki, ale chodzi o w³asne podejœcie do tego wyzwania.
+
+Uwagi:
+1) Korzystamy jedynie z czystego HTML, SCSS/CSS (mo¿na wykorzystaæ jakiœ builder sassowy, wówczas w folderze z zadaniem nale¿y dodaæ plik package, by mo¿na by³o szybko postawiæ œrodowisko i sprawdziæ rezultat. Mo¿na równie¿ pisaæ w czystym CSS) oraz vanilla JS (bez u¿ywania jQuery)
+
+2) W tym zadaniu nie chodzi o to by przygotowaæ to pod urz¹dzenia mobilne, poniewa¿ unikamy frameworków, a pisanie swipe'a wykracza poza zakres prostego zadania testowego. Mile widziane bêdzie skalowanie obiektów do rozdzielczoœci w assecie (1280px) a przy rozdzielczoœciach powy¿ej, wielkoœæ slidera jest sta³a a sam slider wycentrowany.
+
+3) Zmiana slide'u nastêpuje po klikniêciu w stra³kê, lub samochód.
+
+4) strza³ka ma 50% przezroczystoœci, po najechaniu kursorem przestaje byæ przezroczysta.
+
+5) samochód ma 70% przezroczystoœci gdy jest nieaktywny, przestaje byæ przezroczysty gdy staje siê g³ównym slidem.
+
+6) animacje, przejœcia etc. w zale¿noœci od mo¿liwoœci i czasu (mi³o widzieæ, nie s¹ niezbêdne)
+
+7) W przypadku braku photoshopa, asset zosta³ wyeksportowany do jpg, a zdjêcia pojazdów i strza³ka zapisane oddzielnie.
+
+8) U¿yta czcionka jest w katalogu font (mo¿na j¹ przekonwertowaæ na potrzeby font-face'a na wiêcej formatów).
+
+9) w wersji podstawowej pierwszy slide bêdzie mia³ po lewej puste miejsce, ostatni slide bêdzie mia³ po prawej puste miejsce. (mo¿na zrobiæ tak, by po dotarciu do koñca slidera strza³ka znika\ka)
+
+W przypadku problemów z zadaniem/bugów kod i tak bêdzie czytany i sprawdzony, wiêc warto wys³aæ cokolwiek.
+
+
+
+Dla chc¹cych siê wykazaæ / posiadaj¹cych nadmiar czasu / bardziej zaawansowane
+
+1) Stworzyæ slider w wersji infinite (pierwszy slide bêdzie mia³ po lewej ostatni slide, ostatni slide bêdzie mia³ po prawej pierwszy slide), w ten sposób ci¹gle mo¿na przerzucaæ slide'y w jedn¹ stronê 'w nieskoñczonoœæ'
+
+2) Struktura HTML slide'ów bêd¹ tworzyæ siê dynamicznie na podstawie pliku cars.json, (w ten sposób po dodaniu dodatkowego obiektu 'car3' automatycznie zwiêkszy siê iloœæ slide'ów, zachowuj¹c tê sam¹ funkcjonalnoœæ).
+
+W przypadku mniejszej iloœci czasu, lub problemów z punktami 1 i 2, mo¿na równie¿ opisaæ swój sposób myœlenia i sam pomys³ na rozwi¹zanie tych punktów.
+
